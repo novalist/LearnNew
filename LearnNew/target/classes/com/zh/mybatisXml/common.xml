@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zh.dao.CommonDao">
+	
+	<insert id="insert">
+		insert into wms.product_location_detail( pl_id,change_quantity,task_id,description,
+			created_user,created_time,last_updated_user,last_updated_time
+		)values(132596,1,0,'wms未提供盘点库存手动记入盘亏区','hzhang1',now(),'hzhang1',now())
+	</insert>
+
+</mapper>
